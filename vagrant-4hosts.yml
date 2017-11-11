@@ -15,7 +15,7 @@ hadoop_master_secondary
 [hadoop_slaves]
 hadoopslave1 ansible_ssh_host=10.0.0.113
 hadoopslave2 ansible_ssh_host=10.0.0.218
-hadoopslave3 ansible_ssh_host=10.0.0.1
+hadoopslave3 ansible_ssh_host=10.0.0.91
 hadoopclient1
 
 [spark_common]
@@ -31,7 +31,7 @@ hadoopmaster
 hadoop_slaves
 
 [hadoop_clients]
-hadoopclient1 ansible_ssh_host=10.0.0.1
+hadoopclient1 ansible_ssh_host=10.0.0.91
 
 [sqoop_server]
 hadoopslave1
